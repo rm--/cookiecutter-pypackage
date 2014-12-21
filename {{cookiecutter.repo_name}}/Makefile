@@ -35,7 +35,7 @@ lint:
 	flake8 {{ cookiecutter.repo_name }} tests
 
 test:
-	python setup.py test
+	py.test -s --pep8 --flakes $(TEST_ARGS)
 
 test-all:
 	tox
