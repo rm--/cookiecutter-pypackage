@@ -1,0 +1,7 @@
+ipdb==0.8
+pep8==1.5.7
+pytest==2.6.4
+pytest-cache==1.0
+pytest-flakes==0.2
+pytest-pep8==1.0.6
+tox==1.8.1
