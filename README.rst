@@ -1,3 +1,10 @@
+2do
+---
+
+* test template
+* change sphinx theme?
+
+
 ======================
 cookiecutter-pypackage
 ======================
@@ -5,7 +12,7 @@ cookiecutter-pypackage
 Cookiecutter template for a Python package. See https://github.com/audreyr/cookiecutter.
 
 * Free software: BSD license
-* Vanilla testing setup with `unittest` and `python setup.py test`
+* Vanilla testing setup with py.test with `make test`
 * Travis-CI_: Ready for Travis Continuous Integration testing
 * Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
@@ -13,9 +20,9 @@ Cookiecutter template for a Python package. See https://github.com/audreyr/cooki
 Usage
 -----
 
-Generate a Python package project::
+Generate a Python package project using this template::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/rm--/cookiecutter-pypackage.git
 
 Then:
 
